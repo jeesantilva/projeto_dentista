@@ -1,0 +1,39 @@
+.container_card{
+    width: 300px;
+    height: 350px;
+    border: none;
+    box-shadow: 1px 2px 5px 1px #0000008e;
+    border-radius: 2px;
+}
+
+.container_card .container_img{
+    width: 100%;
+    height: 50%;
+    border: none;
+  
+}
+
+.container_card .container_img .imagem{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.container_card .container_text_card{
+    width: 100%;
+    height: 50%;
+    padding: 2px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.container_text_card h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D7C66;
+    text-shadow: 1px 1px 1px #000000e0;
+}
